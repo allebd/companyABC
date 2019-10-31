@@ -1,0 +1,81 @@
+/*
+* app.scss 
+* 
+* KPMG Challenge ©️ 2019
+* https://github.com/allebd/companyABC
+*
+* SCSS Designed by allebd.
+*/
+
+ $background: #fcfcfc;
+ 
+ /* Footer */
+ footer {
+  width: 100%;
+  display: grid;
+  bottom: 0;
+  grid-template-rows: auto;
+  grid-template-areas: "footer-top"
+                       "footer-bottom";
+  background-color: $background;
+
+    .footer-top {
+      padding: 50px 50px;
+      grid-area: footer-top;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      .footer-summary, .footer-conference {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 35px;
+      }
+
+      .footer-menu {
+        font-weight: bold;
+        margin-bottom: 20px
+      }
+
+      .footer-conference {
+        text-align: right;
+        i {
+          margin-right: 5px;
+        }
+
+        span {
+          text-decoration: underline;
+          font-weight: bold;
+        }
+      }
+
+      .footer-social {
+        display: grid;
+        align-content: flex-start;
+        grid-template-columns: 13% 87%;
+
+        p {
+          font-weight: bold;
+        }
+      }
+    }
+
+    .footer-bottom {
+      padding: 15px 50px;
+      grid-area: footer-bottom;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      border-top: 1px solid #E6EAEA;
+
+      .footer-owner {
+        text-align: right;
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+
+    li {
+      display: inline;
+      margin-right: 20px;
+    }
+ }

@@ -1,0 +1,92 @@
+/*
+* app.scss 
+* 
+* KPMG Challenge ©️ 2019
+* https://github.com/allebd/companyABC
+*
+* SCSS Designed by allebd.
+*/
+
+$background: #fcfcfc;
+ 
+/* Footer */
+.category {
+ padding: 50px 0px;
+ width: 100%;
+ display: grid;
+ grid-template-rows: auto;
+ grid-template-areas: "category-header"
+                      "category-boxes";
+   .category-header {
+     grid-area: category-header;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding: 15px 50px;
+
+     h2 {
+      font-size: 17px;
+      font-weight: bold;
+      margin: 0; 
+     }
+
+     .category-title1, .category-title2 {
+      display: grid;
+      grid-template-columns: 150px 130px;
+     }
+
+     .category-title2 {
+      justify-self: right;
+     }
+   }
+
+   .category-boxes {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0px 50px;
+   }
+
+   .category-box {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "category-box-image"
+                         "category-box-text";
+    background: $background;
+   }
+
+   .category-box-text {
+      display: grid;
+      padding: 20px;
+      
+      p {
+        margin: 5px 0;
+      }
+   }
+
+   .category-text-title {
+     font-weight: bold;
+   }
+
+   .category-text-date {
+    text-align: right;
+  }
+
+   .category-text-description {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+   }
+
+   .category-owner {
+    display: grid;
+    grid-template-columns: 10% 80%;
+    border-top: 1px solid #E6EAEA;
+    padding-top: 10px;
+    font-weight: bold;
+   }
+
+   .category-owner-image img {
+     width: 25px;
+     border-radius: 50%;
+   }
+}
+
