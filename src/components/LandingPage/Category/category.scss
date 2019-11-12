@@ -1,5 +1,5 @@
 /*
-* app.scss 
+* category.scss 
 * 
 * KPMG Challenge ©️ 2019
 * https://github.com/allebd/companyABC
@@ -9,7 +9,7 @@
 
 $background: #fcfcfc;
  
-/* Footer */
+/* Category */
 .category {
  padding-bottom: 50px;
  width: 100%;
@@ -65,7 +65,11 @@ $background: #fcfcfc;
    }
 
    .category-box-image {
-    width: 320px;
+      width: 320px;
+    }
+
+    .category-box-image img {
+      object-fit: cover;
     }
 
    .category-text-title {
@@ -87,12 +91,13 @@ $background: #fcfcfc;
     grid-template-columns: 10% 80%;
     border-top: 1px solid #E6EAEA;
     padding-top: 10px;
-    font-weight: bold;
+    font-weight: 500;
    }
 
    .category-owner-image img {
      width: 25px;
      border-radius: 50%;
+     object-fit: cover;
    }
 
    @media(max-width: 900px){
@@ -112,3 +117,18 @@ $background: #fcfcfc;
   }
 }
 
+.category-button {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+
+  button {
+    margin-bottom: 4em;
+    padding: 20px 50px;
+    color: #BDC1C0;
+    background-color: #fcfcfc;
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+}
