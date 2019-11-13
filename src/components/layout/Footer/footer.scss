@@ -83,6 +83,14 @@
       .footer-top, .footer-bottom {
         grid-template-columns: 1fr;
        }
+
+       .footer-top .footer-conference {
+        text-align: left;
+      }
+
+      .footer-bottom .footer-owner {
+        text-align: left;
+      }
     }
   
     @media(max-width: 450px){
