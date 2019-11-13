@@ -1,0 +1,270 @@
+/*
+* banner.scss 
+* 
+* KPMG Challenge ©️ 2019
+* https://github.com/allebd/companyABC
+*
+* SCSS Designed by allebd.
+*/
+
+/* Header */
+header {
+  display: block;
+}
+
+.ht-visible {
+  position: fixed;
+}
+
+#header {
+  color: #202121;
+  position: relative;
+  height: 130px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  line-height: 73px;
+  font-size: 12px;
+  font-weight: 400;
+  background-color: #f4f7f6;
+  z-index: 302;
+
+  .header-top {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    border-bottom: 1px solid #E6EAEA;
+  }
+
+  .header-main {
+    position: relative;
+    display: flex;
+    height: 65px;
+    border-bottom: 1px solid #E6EAEA;
+  }
+
+  .bt-menu {
+    min-width: 115px;
+    height: 65px;
+    border-right: 1px solid #E6EAEA;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+
+    .ico-menu {
+      top: -30px;
+      margin-right: 10px;
+      vertical-align: middle;
+    }
+
+    span {
+      color: #202121;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  .box-left, .box-right  {
+
+    .item {
+      padding: 0 23px;
+    }
+  }
+
+  .box-right {
+    display: contents;
+    justify-self: right;
+  }
+
+  .link-1 {
+    display: inline-block;
+    color: #202121 !important;
+    border-bottom: 1px solid rgba(32,33,33,0.5);
+    line-height: normal;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .box-center {
+    width: 70%;
+    text-align: center;
+  }
+
+  .slogan {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .list-social {
+    display: inline-block;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      margin-right: 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    a {
+      display: block;
+    }
+  }
+
+  .ico-menu, i {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    color: #202121;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all 0.3s ease-in-out;
+  }
+
+  .item .i {
+    top: -1px;
+    vertical-align: middle;
+    color: #202121;
+    height: 13px;
+  }
+
+  .header-main>.box-right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+  .bt-search {
+    cursor: pointer;
+  }
+
+  #bt-submit {
+    position: relative;
+    width: 190px;
+    height: 65px;
+    padding: 0 !important;
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+
+    .button {
+      position: relative;
+      display: inline-block;
+      height: 60px;
+      padding: 0 35px;
+      background-color: #49c5b6;
+      color: #fff;
+      line-height: 63px;
+      text-align: center;
+      font-weight: 500;
+      cursor: pointer;
+      border: none;
+    }
+
+    .button {
+      width: 190px;
+      height: 65px;
+      padding: 0;
+      line-height: 73px;
+      overflow: hidden;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+
+  .login strong {
+    margin-left: 4px;
+    font-weight: 600;
+  }
+
+  .login {
+    text-transform: uppercase;
+    flex: 1;
+    text-align: right;
+  }
+
+  .button span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .logo-header {
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 50%;
+    width: auto;
+    height: 23px;
+    line-height: normal;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  #header .login, #header .logged {
+    flex: 1;
+    text-align: right;
+  }
+}
+
+.logo-header.w svg {
+  width: 230px;
+}
+
+.logo-fill {
+  fill: #202121;
+  z-index: 0;
+  transition: all 0.7s;
+}
+
+.logo-header.w .logo-fill {
+  fill: transparent;
+  -webkit-transform: translateX(85px);
+  transform: translateX(85px);
+}
+
+.logo-header.w #logo-w1 {
+  fill: #202121;
+  -webkit-transform: translateX(85px);
+  transform: translateX(85px);
+}
+
+.logo-header.w #logo-p {
+  fill: #202121;
+  -webkit-transform: translateX(-110px);
+  transform: translateX(-110px);
+}
+
+#header.header-fixed .header-top {
+  display: none;
+}
+
+#header.header-fixed {
+  position: fixed;
+  top: 0;
+  height: 65px;
+}
+
+@media (max-width: 1570px){
+  #header .login span {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px){
+  #header .header-top {
+    display: none;
+  }
+  
+  #header {
+    position: fixed;
+    top: 0;
+    height: 65px;
+  }
+}
+
+@media (max-width: 1200px){
+  #bt-submit, .login, .has-tablet {
+    display: none;
+  }
+}

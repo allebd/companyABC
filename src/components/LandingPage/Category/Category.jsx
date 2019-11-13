@@ -17,11 +17,67 @@ const Category = () => (
       <div className="category-boxes">
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Bruno Simon Portfolio</p>
+            </div>
+            <div className="category-text-description">
+              <div className="category-text-location">
+                <p>From France</p>
+              </div>
+              <div className="category-text-date">
+                <p>October 31, 2019</p>
+              </div>
+            </div>
+            <div className="category-owner">
+              <div className="category-owner-image">
+                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+              </div>
+              <div className="category-owner-name">
+                BY
+                {' '}
+                <span>BRUNO SIMON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="category-box">
+          <div className="category-box-image">
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+          </div>
+          <div className="category-box-text">
+            <div className="category-text-title">
+              <p>Castor &amp; Pollux</p>
+            </div>
+            <div className="category-text-description">
+              <div className="category-text-location">
+                <p>From France</p>
+              </div>
+              <div className="category-text-date">
+                <p>October 31, 2019</p>
+              </div>
+            </div>
+            <div className="category-owner">
+              <div className="category-owner-image">
+                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+              </div>
+              <div className="category-owner-name">
+                BY
+                {' '}
+                <span>CASTOR &amp; POLLUX</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="category-box">
+          <div className="category-box-image">
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+          </div>
+          <div className="category-box-text">
+            <div className="category-text-title">
+              <p>Arts Leeds</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
@@ -38,70 +94,14 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
+                <span>LUCKYDUCK</span>
               </div>
             </div>
           </div>
         </div>
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-          </div>
-          <div className="category-box-text">
-            <div className="category-text-title">
-              <p>Fishing the Feed</p>
-            </div>
-            <div className="category-text-description">
-              <div className="category-text-location">
-                <p>From United Kingdom</p>
-              </div>
-              <div className="category-text-date">
-                <p>October 31, 2019</p>
-              </div>
-            </div>
-            <div className="category-owner">
-              <div className="category-owner-image">
-                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-              </div>
-              <div className="category-owner-name">
-                BY
-                {' '}
-                <span>FIASCODESIGN</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="category-box">
-          <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-          </div>
-          <div className="category-box-text">
-            <div className="category-text-title">
-              <p>Fishing the Feed</p>
-            </div>
-            <div className="category-text-description">
-              <div className="category-text-location">
-                <p>From United Kingdom</p>
-              </div>
-              <div className="category-text-date">
-                <p>October 31, 2019</p>
-              </div>
-            </div>
-            <div className="category-owner">
-              <div className="category-owner-image">
-                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-              </div>
-              <div className="category-owner-name">
-                BY
-                {' '}
-                <span>FIASCODESIGN</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="category-box">
-          <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
@@ -139,15 +139,15 @@ const Category = () => (
       <div className="category-boxes">
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Trip in the dark</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
-                <p>From United Kingdom</p>
+                <p>From Russia</p>
               </div>
               <div className="category-text-date">
                 <p>October 31, 2019</p>
@@ -160,22 +160,22 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
+                <span>VOSKHOD.DIGITAL</span>
               </div>
             </div>
           </div>
         </div>
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Lounge Lizard</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
-                <p>From United Kingdom</p>
+                <p>From United States</p>
               </div>
               <div className="category-text-date">
                 <p>October 31, 2019</p>
@@ -188,22 +188,22 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
+                <span>LOUNGE</span>
               </div>
             </div>
           </div>
         </div>
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Crafted</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
-                <p>From United Kingdom</p>
+                <p>From United States</p>
               </div>
               <div className="category-text-date">
                 <p>October 31, 2019</p>
@@ -216,22 +216,22 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
+                <span>CRAFTED</span>
               </div>
             </div>
           </div>
         </div>
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Neuebel &amp; Mark</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
-                <p>From United Kingdom</p>
+                <p>From Indonesia</p>
               </div>
               <div className="category-text-date">
                 <p>October 31, 2019</p>
@@ -244,7 +244,7 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
+                <span>FIRMAN SUCI ANANDA</span>
               </div>
             </div>
           </div>
@@ -261,7 +261,63 @@ const Category = () => (
       <div className="category-boxes">
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+          </div>
+          <div className="category-box-text">
+            <div className="category-text-title">
+              <p>Minas Designs</p>
+            </div>
+            <div className="category-text-description">
+              <div className="category-text-location">
+                <p>From Greece</p>
+              </div>
+              <div className="category-text-date">
+                <p>October 31, 2019</p>
+              </div>
+            </div>
+            <div className="category-owner">
+              <div className="category-owner-image">
+                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+              </div>
+              <div className="category-owner-name">
+                BY
+                {' '}
+                <span>KOMMIGRAPHICS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="category-box">
+          <div className="category-box-image">
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+          </div>
+          <div className="category-box-text">
+            <div className="category-text-title">
+              <p>Mosaert store</p>
+            </div>
+            <div className="category-text-description">
+              <div className="category-text-location">
+                <p>From Belgium</p>
+              </div>
+              <div className="category-text-date">
+                <p>October 31, 2019</p>
+              </div>
+            </div>
+            <div className="category-owner">
+              <div className="category-owner-image">
+                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+              </div>
+              <div className="category-owner-name">
+                BY
+                {' '}
+                <span>KINGSIZE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="category-box">
+          <div className="category-box-image">
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
@@ -289,11 +345,11 @@ const Category = () => (
         </div>
         <div className="category-box">
           <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
+            <img width="330" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
           </div>
           <div className="category-box-text">
             <div className="category-text-title">
-              <p>Fishing the Feed</p>
+              <p>Trevor Blount</p>
             </div>
             <div className="category-text-description">
               <div className="category-text-location">
@@ -310,63 +366,7 @@ const Category = () => (
               <div className="category-owner-name">
                 BY
                 {' '}
-                <span>FIASCODESIGN</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="category-box">
-          <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-          </div>
-          <div className="category-box-text">
-            <div className="category-text-title">
-              <p>Fishing the Feed</p>
-            </div>
-            <div className="category-text-description">
-              <div className="category-text-location">
-                <p>From United Kingdom</p>
-              </div>
-              <div className="category-text-date">
-                <p>October 31, 2019</p>
-              </div>
-            </div>
-            <div className="category-owner">
-              <div className="category-owner-image">
-                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-              </div>
-              <div className="category-owner-name">
-                BY
-                {' '}
-                <span>FIASCODESIGN</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="category-box">
-          <div className="category-box-image">
-            <img width="320" height="220" src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-          </div>
-          <div className="category-box-text">
-            <div className="category-text-title">
-              <p>Fishing the Feed</p>
-            </div>
-            <div className="category-text-description">
-              <div className="category-text-location">
-                <p>From United Kingdom</p>
-              </div>
-              <div className="category-text-date">
-                <p>October 31, 2019</p>
-              </div>
-            </div>
-            <div className="category-owner">
-              <div className="category-owner-image">
-                <img src={`https://picsum.photos/400/400/?image=${Math.floor((Math.random() * 85))}`} alt="FIASCODESIGN" />
-              </div>
-              <div className="category-owner-name">
-                BY
-                {' '}
-                <span>FIASCODESIGN</span>
+                <span>TREVOR BLOUNT</span>
               </div>
             </div>
           </div>
